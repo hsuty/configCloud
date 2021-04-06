@@ -1,0 +1,32 @@
+microsvc-field:
+  transaction:
+    - txId: MICROSVC-CIF
+      productFields:
+        PREPOID: "PREPOID"
+        PREPOFIELD01: "PREPOFIELD01"
+      glFields:
+        PREGLID: "PREGLID"
+        PREGLFIELD01: "PREGLFIELD01"
+      facilityFields:
+        PREFAID: "PREFAID"
+        PREFAFIELD01: "PREFAFIELD01"
+    - txId: MICROSVC-PG01
+      productFields:
+        PREPOID: "PREPOID"
+        PREPOFIELD01: "PREPOFIELD01"
+      glFields:
+        PREGLID: "PREGLID"
+        PREGLFIELD01: "PREGLFIELD01"
+      facilityFields:
+        PREFAID: "PREFAID"
+        PREFAFIELD01: "PREFAFIELD01"
+    - txId: MICROSVC-PG02
+      productFields:
+        PREPOID: "PREPOID"
+        PREPOFIELD01: "PREPOFIELD01"
+      glFields:
+        PREGLID: "PREGLID"
+        PREGLFIELD01: "PREGLFIELD01"
+      facilityFields:
+        PREFAID: "PREFAID"
+        PREFAFIELD01: "PREFAFIELD01"

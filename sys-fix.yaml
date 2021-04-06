@@ -1,0 +1,15 @@
+sys-fix:
+   sysfix:
+      sc01: sc01
+      sc02: sc02
+      sc03: sc03
+      sn01: sn01
+      sn02: sn02
+      sn03: sn03
+      ss01: ss01
+      ss02: ss02
+      ss03: ss03
+      ss04: ss04
+      ss05: ss05
+      ss06: ss06
+      ss07: ss07

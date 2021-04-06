@@ -1,0 +1,47 @@
+tx-field:
+  transaction:
+    - txId: TX01
+      txType: GP01
+      inputFields:
+        - field: CUSID,string,10,true
+        - field: ACCOUNT-ID,string,10,true
+      outputFields:
+        - field: CUSID,string,10,false,000
+        - field: ACCOUNT-ID,string,10,false,000
+    - txId: TX02
+      txType: GP01
+      inputFields:
+        - field: CUSID,string,10,true,
+        - field: ACCOUNT-ID,string,10,true
+        - field: AMOUNT,numeric,20,false
+      outputFields:
+        - field: CUSTOMER,string,10,false
+        - field: BAL,string,10,false
+    - txId: TX03
+      txType: GP01
+      inputFields:
+        - field: CUSID,string,10,true,
+        - field: ACCOUNT-ID-ADD,string,10,true
+        - field: AMOUNT,numeric,20,false
+      outputFields:
+        - field: CUSTOMER,string,10,false
+        - field: BAL,string,10,false
+    - txId: TX04
+      txType: GP01
+      inputFields:
+        - field: CUSID,string,10,true,
+        - field: ACCOUNT-ID-SUB,string,10,true
+        - field: AMOUNT,numeric,20,false
+      outputFields:
+        - field: CUSTOMER,string,10,false
+        - field: BAL,string,10,false
+    - txId: TX05
+      txType: GP01
+      inputFields:
+        - field: CUSID,string,10,true,
+        - field: ACCOUNT-ID-ADD,string,10,true
+        - field: ACCOUNT-ID-SUB,string,10,true
+        - field: AMOUNT,numeric,20,false
+      outputFields:
+        - field: CUSTOMER,string,10,false
+        - field: BAL,string,10,false

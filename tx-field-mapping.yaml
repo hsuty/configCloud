@@ -1,0 +1,47 @@
+tx-field-mapping:
+  transaction:
+    - txId: TX01
+      contentType: json
+      inputFields:
+        - field: accountId,ACCOUNT-ID
+        - field: cusId,CUSID
+      outputFields:
+        - field: ACCOUNT-ID,accountId
+        - field: CUSID,cusId
+    - txId: TX02
+      contentType: json
+      inputFields:
+        - field: accountId,ACCOUNT-ID
+        - field: cusId,CUSID
+        - field: amount,AMOUNT
+      outputFields:
+        - field: CUSTOMER,customer
+        - field: BAL,bal
+    - txId: TX03
+      contentType: json
+      inputFields:
+        - field: accountIdadd,ACCOUNT-ID-ADD
+        - field: cusId,CUSID
+        - field: amount,AMOUNT
+      outputFields:
+        - field: CUSTOMER,customer
+        - field: BAL,bal
+    - txId: TX04
+      contentType: json
+      inputFields:
+        - field: accountIdsub,ACCOUNT-ID-SUB
+        - field: cusId,CUSID
+        - field: amount,AMOUNT
+      outputFields:
+        - field: CUSTOMER,customer
+        - field: BAL,bal
+    - txId: TX05
+      contentType: json
+      inputFields:
+        - field: accountIdadd,ACCOUNT-ID-ADD
+        - field: accountIdsub,ACCOUNT-ID-SUB
+        - field: cusId,CUSID
+        - field: amount,AMOUNT
+      outputFields:
+        - field: CUSTOMER,customer
+        - field: BAL,bal

@@ -1,0 +1,25 @@
+tx-header:
+  transaction:
+    - txId: GP01
+      inputFields:
+        - field: TXID,string,4,true
+        - field: CHANNEL,string,2,true
+        - field: BRANCH,string,4,true
+        - field: TXDATE,string,8,true
+        - field: TXTIME,string,6,true
+        - field: TELLER,string,4,true
+        - field: REQUEST,string,3,true
+        - field: UUID,string,16,true
+        - field: RESPONSE,string,2,false
+        - field: RESERVE,string,16,false
+      outputFields:
+        - field: TXID,string,4,true
+        - field: CHANNEL,string,2,true
+        - field: BRANCH,string,4,true
+        - field: TXDATE,string,8,true
+        - field: TXTIME,string,6,true
+        - field: TELLER,string,4,true
+        - field: REQUEST,string,3,true
+        - field: UUID,string,16,true
+        - field: RESPONSE,string,2,false
+        - field: RESERVE,string,16,false

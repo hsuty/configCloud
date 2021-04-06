@@ -1,0 +1,27 @@
+tx-header-mapping:
+  transaction:
+  - txId: GP01
+    contentType: json
+    inputFields:
+      - field: txid,TXID
+      - field: channel,CHANNEL
+      - field: branch,BRANCH
+      - field: txdate,TXDATE
+      - field: txtime,TXTIME
+      - field: teller,TELLER
+      - field: request,REQUEST
+      - field: uuid,UUID
+      - field: response,RESPONSE
+      - field: reserve,RESERVE
+
+    outputFields:
+      - field: TXID,txid
+      - field: CHANNEL,channel
+      - field: BRANCH,branch
+      - field: TXDATE,txdate
+      - field: TXTIME,txtime
+      - field: TELLER,teller
+      - field: REQUEST,request
+      - field: UUID,uuid
+      - field: RESPONSE,response
+      - field: RESERVE,reserve
